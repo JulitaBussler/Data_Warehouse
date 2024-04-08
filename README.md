@@ -67,6 +67,8 @@ This repository contains documentation for a project focused on evaluating marke
   - Granularity: a specified submission for a specific date, store, localisation, marketing campaign, and social media engagement
   - Measures: Number of store monitoring facts, TrafficRatio sum, Average TrafficRatio, SalesRatio sum, Average SalesRatio
 
+![image](https://github.com/JulitaBussler/Data_Warehouse/assets/166449179/7930cdae-79cf-42a8-a869-3e17d2e0a02b)
+\
 ## Feasibility Queries
 
 Feasibility queries based on the multidimensional model for evaluating marketing campaigns include:
