@@ -1,0 +1,240 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3d081e5f-3e8e-4124-938d-76d7e27efcbf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Sme</ID>
+  <Name>Dim Sme</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="15" scrolltop="-4403" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="78" x="10393" y="9504" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Sme" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e0e0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Sme" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>15</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4403</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>78</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2a52346b-5f09-405d-88a0-b1502d7d1f62">
+    <DataSourceViewID>DWschema</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="e1ad58bb-e665-4b1e-bb47-4f1767729fac">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="571bf585-e952-4dcf-b356-1f5d7f7e6d11">
+      <ID>SK Engagement ID</ID>
+      <Name>SK Engagement ID</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>3684</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="daed4fb3-4c87-4a9e-aede-74e57b4dcb00">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8938270e-957d-4087-b21d-5ed5292db9b7">
+            <TableID>dbo_Dim_Sme</TableID>
+            <ColumnID>SK_EngagementID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0d8735d1-e307-49b1-b304-0d1a5c43a6c5">
+          <AttributeID>SME Total</AttributeID>
+          <Name>SME Total</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e1a0e47f-aeae-4e7f-996b-ec61833a2da7">
+          <AttributeID>Views</AttributeID>
+          <Name>Views</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7b4dcd9c-5cc7-477f-a364-9e5c364677fd">
+          <AttributeID>Likes</AttributeID>
+          <Name>Likes</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5d8cef81-92c2-4927-b20f-d4dba202f5e9">
+          <AttributeID>Comments</AttributeID>
+          <Name>Comments</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c723fd52-d515-4343-a91f-03d02e1e680f">
+          <AttributeID>Followers</AttributeID>
+          <Name>Followers</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5afba364-00aa-4357-8373-89d1d6be9a23">
+      <ID>SME Total</ID>
+      <Name>SME Total</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c2931f56-1b03-4b73-a1fd-3c2588523301">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f35aa11-ac90-4f30-94af-72930b61701d">
+            <TableID>dbo_Dim_Sme</TableID>
+            <ColumnID>SMETotal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bbf7f8db-55e3-4e2f-810d-ab3cce71e75b">
+      <ID>Views</ID>
+      <Name>Views</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1521eac8-0bea-4c6c-a91b-865b36509611">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="819e51ca-1783-4138-be4b-a8926bb32520">
+            <TableID>dbo_Dim_Sme</TableID>
+            <ColumnID>Views</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f7961a52-5dfa-4205-8175-7e7ba791f972">
+      <ID>Likes</ID>
+      <Name>Likes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d86aa75-8e8e-4c72-89b5-1dc257d13b04">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf1aa775-5550-4cd8-90ab-f48cd86760ca">
+            <TableID>dbo_Dim_Sme</TableID>
+            <ColumnID>Likes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="32f817a3-1f21-4aa6-9544-821229c4bf37">
+      <ID>Comments</ID>
+      <Name>Comments</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09af38dc-50d0-4ec5-94b7-562fce39345e">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="301474e4-251e-4c87-9c2d-8e926ba6d129">
+            <TableID>dbo_Dim_Sme</TableID>
+            <ColumnID>Comments</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="944ce9ac-3076-4f24-ac6b-f7fc0bcef116">
+      <ID>Followers</ID>
+      <Name>Followers</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b81a8817-e9a8-4177-9cc4-b6f1997ac3ed">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="922ce544-015d-47b6-9999-96f49ef036db">
+            <TableID>dbo_Dim_Sme</TableID>
+            <ColumnID>Followers</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="19c33e2a-5085-4fbf-a126-76eede664231">
+      <ID>Hierarchy</ID>
+      <Name>SmeHierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="7928607d-aa40-413a-9381-a4761b8b0f81">
+          <ID>SME Total</ID>
+          <Name>SME Total</Name>
+          <SourceAttributeID>SME Total</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7c763cb0-a39e-4aec-952d-50cc47eec3c7">
+          <ID>Views</ID>
+          <Name>Views</Name>
+          <SourceAttributeID>Views</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="54885a64-b381-4e4d-9aff-7f7c13816979">
+          <ID>Followers</ID>
+          <Name>Followers</Name>
+          <SourceAttributeID>Followers</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fbcde381-795d-4af8-aed4-c4e284344b14">
+          <ID>Likes</ID>
+          <Name>Likes</Name>
+          <SourceAttributeID>Likes</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="144d6534-9b18-4b36-ab5a-a7af36b67801">
+          <ID>Comments</ID>
+          <Name>Comments</Name>
+          <SourceAttributeID>Comments</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
